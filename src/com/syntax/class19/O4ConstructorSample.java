@@ -20,6 +20,7 @@ public class O4ConstructorSample {
 		// first constructor will look to the this() codes then if there is still things print in constructor it will go one by one
 		// from bottom to top. step by step goes to the top
 
+		
 	}
 
 }

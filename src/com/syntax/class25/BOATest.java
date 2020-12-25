@@ -6,7 +6,6 @@ public class BOATest {
 		BOA bank=new BOA();
 
 		bank.deposit();
-		bank.deposit();
 		bank.financing();
 		bank.withdraw();
 		bank.giveCredit();

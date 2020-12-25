@@ -9,7 +9,7 @@ public class CheckPrimeOrNot {
 		// prime number is greater than 1 prime>1
 		// prime numbers are: 2,3,5,7,11,13,17,19,23....
 		
-		int given=11; // let's check is 7 prime or not
+		int given=15; // let's check is 7 prime or not
 		boolean isPrime=true;
 		
 		// first you need to check is this number greater than 1
@@ -27,8 +27,18 @@ public class CheckPrimeOrNot {
 		}
 		
 		System.out.println("given number "+given+" is prime?"+ isPrime);
-		
-
+		System.out.println("**********");
+		if (given>1) {
+			for (int i=2; i<=given; i++) {
+				if (given%i!=0) {
+					isPrime=true;
+					break;
+				}
+			}
+		}else {
+			isPrime=true;
+		}
+		System.out.println("given number "+given+" is prime?"+ isPrime);
 	}
 
 }

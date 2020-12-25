@@ -8,7 +8,7 @@ public class AllInOne05 {
 		
 		/*logical opperators cannot work in switch case like  &&, ||,!
 		 * no relational <,>.... cannot be used
-		 * we cannot use in switch boolean, double, float. It works only with byte, short, char int, string.
+		 * we cannot use in switch boolean, double, float. It works only with byte, short, char, int, string.
 		 * we cannot have duplicates
 		 * we must use break
 		 */
@@ -18,7 +18,7 @@ public class AllInOne05 {
 		String genderType;
 		
 		scan=new Scanner(System.in);
-		System.out.println("Enter your gender");
+		System.out.println("Enter your gender write F or M");
 		gender=scan.next().charAt(0);
 		
 		switch (gender) {
